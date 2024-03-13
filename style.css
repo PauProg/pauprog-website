@@ -302,13 +302,33 @@ header {
     }
 }
 
+@media (max-width: 1444px) {
+    .project-block .text h1 {
+        font-size: 30px;
+    }
+
+    .project-block .text p {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .projects .project-block .text a i {
+        font-size: 25px;
+    }
+
+    .projects .project-block img {
+        width: 300px;
+        height: auto;
+    }
+}
+
 @media (max-width: 1402px) {
     .home {
         padding: 12rem 10rem;
     }
 }
 
-@media (max-width: 1241px) {
+@media (max-width: 1255px) {
     .home {
         padding: 12rem 2rem;
     }
@@ -329,6 +349,36 @@ header {
 
     .container .projects-down-text {
         display: none;
+    }
+}
+
+@media (max-width: 1081px) {
+    .project-block .text h1 {
+        font-size: 30px;
+    }
+
+    .project-block .text p {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .projects .project-block .text a i {
+        font-size: 25px;
+    }
+
+    .projects .project-block img {
+        width: 275px;
+        height: auto;
+    }
+}
+
+@media (max-width: 1000px) {
+    .projects .title h1 {
+        font-size: 37px;
+    }
+
+    .projects .project-block {
+        flex-direction: column;
     }
 }
 
@@ -359,6 +409,14 @@ header {
         height: auto;
         margin: 3rem auto auto auto;
     }
+
+    .projects .project-block {
+        margin: 2rem 7rem;
+    }
+
+    .projects .project-block:last-child {
+        margin-bottom: 3rem;
+    }
 }
 
 @media (max-width: 750px) {
@@ -382,6 +440,34 @@ header {
 
     .drop-menu {
         display: block;
+    }
+
+    .projects .project-block {
+        margin: 1rem 5rem;
+    }
+}
+
+@media (max-width: 625px) {
+    .projects .project-block {
+        margin: .5rem 2rem;
+    }
+
+    .projects .title h1 {
+        font-size: 33px;
+    }
+
+    .projects .project-block .text h1 {
+        font-size: 21px;
+    }
+
+    .projects .project-block .text p {
+        font-size: 16px;
+        padding-right: 1rem;
+    }
+
+    .projects .project-block img {
+        width: auto;
+        height: 250px;
     }
 }
 
@@ -408,6 +494,10 @@ header {
     .home .presentation p {
         font-size: 15px;
         font-weight: 300;
+    }
+
+    .projects .title h1 {
+        font-size: 25px;
     }
 }
 
